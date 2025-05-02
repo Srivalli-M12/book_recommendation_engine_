@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+#content {
+    padding-bottom: 60px; /* Adjust this value to match the footer height */
+}
+main {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 90vh;             /* Ensure content takes up most of the viewport height */
+    background-color: #f5f5f5; /* Light background to match the theme */
+}
+
+.form-container {
+    background: white;          /* White background for contrast */
+    padding: 2em;
+    border-radius: 10px;        /* Smooth, rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center;         /* Align content inside the form */
+    width: 350px;               /* Slightly wider form for better usability */
+}
+
+#signup {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    position: fixed;        /* Stay within the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;           /* Full viewport width */
+    height: 100vh;          /* Full viewport height */
+    background-color: #f5f5f5; /* Light background */
+    z-index: 10;            /* Ensure visibility over other elements */
+    margin: 0;              /* Remove any unintended margins */
+    padding: 0;             /* Remove padding, if any */
+}
+
+.auth-form input {
+    display: block;
+    width: 100%;
+    margin: 0.75em 0;
+    padding: 0.75em;
+    font-size: 1em;
+    border: 1px solid #ccc;     /* Light gray border */
+    border-radius: 5px;         /* Rounded edges for inputs */
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 0.75em;
+    font-size: 1em;
+    background-color: #0078d4;  /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;         /* Rounded corners for buttons */
+    cursor: pointer;            /* Show pointer on hover */
+}
+
+.auth-form button:hover {
+    background-color: #005a9e;  /* Darker color for hover effect */
+}
+
+nav {
+    background-color: #005a9e;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5f5f5;
+}
+
+
+.auth-form {
+    margin-bottom: 1em;
+}
+
+
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
