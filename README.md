@@ -61,7 +61,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-The server will start at `http://127.0.0.1:5000/`
 
 ### License
 This project is open-source and available under the **MIT License**.
