@@ -44,7 +44,7 @@ book_recommendation_engine_/
 ### Installation & Setup
 #### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/SrivalliMannem/book_recommendation_engine_.git
+git clone https://github.com/Srivalli-M12/book_recommendation_engine_.git
 cd book_recommendation_engine_
 ```
 #### Step 2: Set Up Virtual Environment (Optional)
@@ -69,7 +69,7 @@ This project is open-source and available under the **MIT License**.
 A big thank you to all the contributors, developers, and the **Open Library API** for providing accessible book data. 
 
 ### Contact
-For any queries, suggestions, or collaborations, feel free to reach out:[GitHub](https://github.com/SrivalliMannem)
+For any queries, suggestions, or collaborations, feel free to reach out:[GitHub](https://github.com/Srivalli-M12)
 
 
 
